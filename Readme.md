@@ -9,7 +9,7 @@ Getting Started
 To run this project locally using Docker, follow these steps:
 
 Clone the repository:
-git clone https://github.com/mrsaikumar-7/text-search.git
+git https://github.com/Pgangothri/wordsearch.git
 cd your-project
 Build Docker Images:
 docker-compose build
@@ -24,8 +24,6 @@ Email: admin@gmail.com
 Name: admin
 Password: ******
 Password (again):*****
-Creating superuser with password: demo@123
-Creating admin  with password: demo@123
 now we can log in to the admin panel by using the end point http://localhost:8000/admin/:
 The application should now be accessible at http://localhost:8000/.:
 To stop the containers use:
