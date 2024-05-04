@@ -66,8 +66,8 @@ To run this project locally using Docker, follow these steps:
   "email": "pgangothri@gmail.com",
   "name": "gangothri",
   "dob": "2003-08-13",
-  "createdAt": "2024-05-06T16:23:03Z",
-  "modifiedAt": "2024-05-06T16:23:03Z",
+  "created_at": "2024-05-04T20:00:56.239289",
+  "modified_at": "2024-05-04T20:00:56.239289"
 }
    ```
 
