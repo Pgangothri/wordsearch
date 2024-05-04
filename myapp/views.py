@@ -41,7 +41,7 @@ class ParagraphListCreateView(generics.ListCreateAPIView):
 
     def create(self, request, *args, **kwargs):
         # Extract text from request data
-        text = request.data.get('text', '')
+        text = request.data.get("text", "")
 
         if not text:
             # Return an error response if no text is provided
@@ -98,3 +98,9 @@ def search_paragraphs(request, word):
 
     # Return the results with highlighted paragraphs
     return Response({'results': highlighted_paragraphs})
+
+class ParagraphRetrieveUpdateDestroyView(generics.RetrieveUpdateDestroyAPIView):
+    queryset = Paragraph.objects.all()
+    serializer_class = ParagraphSerializer
+    authentication_classes = [TokenAuthentication]  # Require Token authentication
+    permission_classes = [IsAuthenticated]
