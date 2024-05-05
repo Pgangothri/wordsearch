@@ -207,10 +207,6 @@ authorizaiton : Token 536a2a66ddf451cf36a24278a2f53a6b80e921f9
 
 
 
-### Reporting Issues
-
-If you encounter any issues or have suggestions for improvements, please create an issue in the [issue tracker](https://github.com/Pgangothri/wodsearch/issues.git)
-# Happy Coding 😊
 
 
 
