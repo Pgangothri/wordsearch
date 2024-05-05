@@ -64,7 +64,7 @@ To run this project locally using Docker, follow these steps:
   {
   "id": 1,
   "email": "pgangothri@gmail.com",
-  "name": "gangothri",
+  "name": "GAngothri",
   "dob": "2003-08-13",
   "created_at": "2024-05-04T20:00:56.239289",
   "modified_at": "2024-05-04T20:00:56.239289"
@@ -209,8 +209,7 @@ authorizaiton : Token 536a2a66ddf451cf36a24278a2f53a6b80e921f9
 
 ### Reporting Issues
 
-If you encounter any issues or have suggestions for improvements, please create an issue in the [issue tracker](https://github.com/mrsaikumar-7/text-search/issues).
-
+If you encounter any issues or have suggestions for improvements, please create an issue in the [issue tracker](https://github.com/Pgangothri/wodsearch/issues.git)
 # Happy Coding 😊
 
 
